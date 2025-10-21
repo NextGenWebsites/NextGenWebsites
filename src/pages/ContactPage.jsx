@@ -299,7 +299,7 @@ const ContactPage = () => {
       title: "E-Mail",
       content: (
         <div className="space-y-2">
-          <p>contact@nextgenwebsites.info</p>
+          <p>michael@nextgenwebsites.info</p>
         </div>
       ),
       icon: <IoMdMailUnread size={24} />,
@@ -309,9 +309,7 @@ const ContactPage = () => {
       title: "Business Hours",
       content: (
         <div className="space-y-2">
-          <p>Monday - Friday: 10AM - 5PM</p>
-          <p>Saturday: 10AM - 3PM</p>
-          <p>Sunday: Closed</p>
+        
         </div>
       ),
       icon: <FaClock size={24} />,
