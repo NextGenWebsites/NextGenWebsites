@@ -1,0 +1,10 @@
+# robots.txt for www.nextgenwebsites.info
+User-agent: *
+Allow: /
+
+# Common private paths to keep out of the index (remove if not used)
+Disallow: /admin/
+Disallow: /api/
+Disallow: /drafts/
+
+Sitemap: https://www.nextgenwebsites.info/sitemap.xml
