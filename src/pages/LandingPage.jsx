@@ -561,8 +561,7 @@ const LandingPage = () => {
                   </span>
                 </div>
                 <p className="text-lg md:text-xl text-gray-600 mb-8">
-                  Websites that work for you - Affordable, trustworthy and
-                  precise
+                  Websites are no longer complicated, overpriced and take forever. Welcome to the Next Generation of Websites. 
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 p-8 ">
                   <div>
