@@ -413,42 +413,42 @@ const ServiceMain = () => {
       id: "website-design",
       title: "Website Design",
       description:
-        "We create custom, responsive designs that reflects any business brand identity and provide exceptional user experience.",
+        "Beautiful, responsive, front-end designs that showcase your brand identity, attract attention, and keep visitors engaged on any device",
       icon: <FaLaptopCode size={24} />,
     },
     {
       id: "website-development",
       title: "Website Development",
       description:
-        "Modern, high-performance websites built with the latest technologies and full custom stack coded solutions to meet your business needs",
+        "Custom cutting-edge websites built with the latest languages and technologies to ensure speed, security, and scalability",
       icon: <FaCode size={24} />,
     },
     {
       id: "ecommerce-solutions",
-      title: "E-Commerce Solutions",
+      title: "Maintenance",
       description:
-        "Feature-rich online stores with secure payment gateways and intuitive inventory management for all your E-Commerce needs.",
+        "Regular updates, security patches, and technical support to keep your website running smoothly",
       icon: <FaShoppingCart size={24} />,
     },
     {
       id: "seo-Optimisation",
       title: "SEO Optimisation",
       description:
-        "Boost your search rankings and drive more organic traffic to increase your online visibility.",
+        "Boost your online platform and visibility and attract more cutomers and traffic to your business",
       icon: <FaSearch size={24} />,
     },
     {
       id: "website-maintenance",
-      title: "Website Maintenance",
+      title: "Email Hosting",
       description:
-        "Regular updates, security monitoring, and technical support to keep your website updated and running smoothly.",
+        "Professional email (@yourdomain) with rock-solid security, spam protection, and easy setup so your business looks legit from day one",
       icon: <FaTools size={24} />,
     },
     {
       id: "social-media-integration",
-      title: "Social Media Integration",
+      title: "Web Hosting",
       description:
-        "Seamless connection with social platforms to expand your reach and engage with your audience.",
+        "Managed hosting built for speed and security 24/7, lightning fast load times, and expert support",
       icon: <FaShareAlt size={24} />,
     },
   ];
@@ -689,7 +689,7 @@ const ServiceMain = () => {
 
               <div className="md:col-span-3 flex flex-col justify-center items-center text-center max-w-4xl mx-auto">
                 <h2 className="text-3xl font-bold text-gray-800 mb-8">
-                  Why Pay Thousands Upfront?
+                  Why Choose Us?
                 </h2>
 
                 <div className="space-y-6 w-full">
@@ -699,12 +699,11 @@ const ServiceMain = () => {
                     </div>
                     <div>
                       <h3 className="text-xl font-semibold text-gray-800 mb-2">
-                        No Massive Upfront Costs
+                        No Massive Upfront Costs or Large Ongoing Costs
                       </h3>
                       <p className="text-gray-600">
-                        Most web developers charge $5,000 to $40,000 upfront.
-                        Our affordable service removes that obstacle that makes
-                        it hard to enter their business into the digital world.
+                        Most web developers charge $5,000 to $40,000 upfront. They then ask for more ongoing money! A website should be a one time investment, not a liability. 
+                        Our affordable service removes this obstacle, allowing you to pay an affordable price ONCE. 
                       </p>
                     </div>
                   </div>
@@ -718,7 +717,7 @@ const ServiceMain = () => {
                         Continuous Updates & Maintenance
                       </h3>
                       <p className="text-gray-600">
-                        We also provide FREE ongoing technical support and minor
+                        Things change! Thats why we also provide FREE ongoing technical support and minor
                         updates, ensuring your website is up to date.
                       </p>
                     </div>
@@ -787,7 +786,7 @@ const ServiceMain = () => {
               </h2>
               <div className="w-20 h-1 bg-blue-600 mx-auto mb-4"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Don't just take our word for it — hear what our satisfied
+                Don't just take our word for it. Hear what our satisfied
                 clients have to say.
               </p>
             </ScrollReveal>
