@@ -8,8 +8,8 @@ https://nextgenwebsites.info/*       https://www.nextgenwebsites.info/:splat   3
 http://www.nextgenwebsites.info/*    https://www.nextgenwebsites.info/:splat   301!
 
 # Netlify subdomain → primary
-http://nextgenwebsites-main.netlify.app/*   https://www.nextgenwebsites.info/:splat   301!
-https://nextgenwebsites-main.netlify.app/*  https://www.nextgenwebsites.info/:splat   301!
+# http://nextgenwebsites-main.netlify.app/*   https://www.nextgenwebsites.info/:splat   301!
+# https://nextgenwebsites-main.netlify.app/*  https://www.nextgenwebsites.info/:splat   301!
 
 # (Optional) catch any other hostnames you add later
 # https://*.nextgenwebsites.info/*    https://www.nextgenwebsites.info/:splat   301!
