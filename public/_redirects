@@ -1,1 +1,18 @@
-/* /index.html 200
+# ===== Canonical host: https://www.nextgenwebsites.info =====
+
+# Apex → www (HTTP & HTTPS)
+http://nextgenwebsites.info/*        https://www.nextgenwebsites.info/:splat   301!
+https://nextgenwebsites.info/*       https://www.nextgenwebsites.info/:splat   301!
+
+# Ensure www is HTTPS
+http://www.nextgenwebsites.info/*    https://www.nextgenwebsites.info/:splat   301!
+
+# Netlify subdomain → primary
+http://nextgenwebsites-main.netlify.app/*   https://www.nextgenwebsites.info/:splat   301!
+https://nextgenwebsites-main.netlify.app/*  https://www.nextgenwebsites.info/:splat   301!
+
+# (Optional) catch any other hostnames you add later
+# https://*.nextgenwebsites.info/*    https://www.nextgenwebsites.info/:splat   301!
+
+# SPA fallback (keep LAST). Remove if not a SPA.
+ /* /index.html 200
