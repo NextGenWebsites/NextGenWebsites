@@ -306,10 +306,10 @@ const ContactPage = () => {
       hoverColor: "green",
     },
     {
-      title: "Business Hours",
+      title: "Fast Turnaround Times",
       content: (
         <div className="space-y-2">
-        
+        <p>We usually respond back within 24 hours</p>
         </div>
       ),
       icon: <FaClock size={24} />,
