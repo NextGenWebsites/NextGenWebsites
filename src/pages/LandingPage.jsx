@@ -277,13 +277,13 @@ const LandingPage = () => {
       icon: <FaPencilRuler className="text-blue-600 text-4xl mb-4" />,
       title: "Website Design",
       description:
-        "Beautiful, responsive designs that showcase your brand identity, attract attention, and keep visitors engaged on any device.",
+        "Beautiful, responsive, front-end designs that showcase your brand identity, attract attention, and keep visitors engaged on any device.",
     },
     {
       icon: <FaLaptopCode className="text-blue-600 text-4xl mb-4" />,
       title: "Website Development",
       description:
-        "Custom websites built with the latest technologies to ensure speed, security, and scalability.",
+        "Custom cutting-edge websites built with the latest languages and technologies to ensure speed, security, and scalability.",
     },
     {
       icon: <FaTools className="text-blue-600 text-4xl mb-4" />,
@@ -295,26 +295,26 @@ const LandingPage = () => {
       icon: <FaChartLine className="text-blue-600 text-4xl mb-4" />,
       title: "SEO Optimisation",
       description:
-        "Boost your online visibility and attract more qualified traffic to your website.",
+        "Boost your online platform and visibility and attract more cutomers and traffic to your business.",
     },
     {
       icon: <FaHashtag className="text-blue-600 text-4xl mb-4" />,
-      title: "Social Media Integration",
+      title: "Email Hosting",
       description:
-        "Seamless connections with your social platforms to expand your digital footprint.",
+        "Professional email (@yourdomain) with rock-solid security, spam protection, and easy setup so your business looks legit from day one",
     },
     {
       icon: <FaMobileAlt className="text-blue-600 text-4xl mb-4" />,
-      title: "Responsive Design",
+      title: "Web Hosting",
       description:
-        "Websites that look and function perfectly on all devices, from desktops to smartphones.",
+        "Managed hosting built for speed and security 24/7, lightning fast load times, and expert support.",
     },
   ];
 
   const testimonials = [
     {
       name: "Eddy Li",
-      role: "Car Wash Owner",
+      role: "Owner of Sparkling Car Care",
       comment:
         "I honestly didn’t think I needed a website, but after NextGen set one up for me, I started getting way more bookings. It was quick, affordable, and it looks way better than I expected. Wish I did it sooner",
     },
@@ -322,7 +322,7 @@ const LandingPage = () => {
       name: "Shelley Zhang",
       role: "E-commerce Entrepreneur",
       comment:
-        "Their team delivered a website that exceeded my expectations. The social media integration has helped us grow our following and drive sales.",
+        "Their team delivered a website that exceeded my expectations. Ever since I got one, it has helped my business grow and drove our sales through the roof",
     },
     {
       name: "Rebecca Torres",
