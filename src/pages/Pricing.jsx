@@ -406,14 +406,9 @@ const PricingMain = () => {
       icon: <FaRocket className="text-4xl text-blue-600" />,
       features: [
         { text: "Custom Designed Single Page", included: true },
-        { text: "Custom Domain", included: true },
-        { text: "Responsive Layout", included: true },
-        { text: "Fast-loading Optimisation", included: true },
+        { text: "Mobile Responsive", included: true },
         { text: "Basic SEO Setup", included: true },
-        { text: "Social Media Integration", included: false },
-        { text: "Contact Form", included: false },
-        { text: "Google Maps and Reviews Integration", included: false },
-        { text: "Modern Animations", included: false },
+        { text: "Contact Form", included: true },
       ],
     },
     {
@@ -424,38 +419,33 @@ const PricingMain = () => {
       icon: <FaRegBuilding className="text-4xl text-yellow-400" />,
       features: [
         { text: <strong>Everything in Single Page</strong>, included: true },
-        { text: "4 Custom Pages", included: true },
+        { text: "Up to 4 Custom Pages", included: true },
         { text: "Contact Form with Emails", included: true },
-        { text: "Google Maps and Reviews Integrations", included: true },
-        { text: "Modern Animations", included: true },
+        { text: "Google Reviews and Maps Integrations", included: true },
         { text: "Social Media Integration", included: true },
+        { text: "Modern Animations", included: true },
         { text: "SEO Optimisation", included: true },
-        { text: "Booking or Calendar Integration", included: false },
-        { text: "Live Chat Integration", included: false },
       ],
     },
     {
-      name: "Advanced Business",
+      name: "Business Pro",
       description: "For Larger Organisations",
-      price: "$1,590",
+      price: "$1,690",
       oldPrice: "",
       icon: <FaHandshake className="text-4xl text-purple-600" />,
       features: [
         { text: <strong>Everything in Multi Page</strong>, included: true },
         { text: "5-10 Custom Pages", included: true },
-        { text: "Booking or Calendar Integration", included: true },
+        { text: "Booking / Calendar Integration", included: true },
         { text: "Live Chat Integration", included: true },
-        { text: "Email Subscription Setup", included: true },
-        { text: "Custom Admin Dashboard", included: true },
+        { text: "Email Marketing Setup", included: true },
         { text: "Performance Optimisation", included: true },
-        { text: "eCommerce Features", included: false },
-        { text: "Payment Gateway Setup", included: false },
       ],
     },
     {
-      name: "E-Commerce",
-      description: "For Online Stores",
-      price: "$2,890",
+      name: "Custom Solutions",
+      description: "For Online Stores and Portals",
+      price: "Price on Application",
       oldPrice: "",
       icon: <FaShoppingCart className="text-4xl text-green-600" />,
       features: [
@@ -463,14 +453,11 @@ const PricingMain = () => {
           text: <strong>Everything in Advanced Business</strong>,
           included: true,
         },
-        { text: "Payment Gateway Setup", included: true },
-        { text: "Inventory System", included: true },
-        { text: "Shipping & Tax Config", included: true },
+        { text: "E-Commerce Systems", included: true },
+        { text: "Inventory Systems", included: true },
         { text: "User Account & Login System", included: true },
-        { text: "Product Filtering & Search", included: true },
-        { text: "Discount & Coupon System", included: true },
-        { text: "Order tracking System", included: true },
-        { text: "Abandoned Cart Recovery", included: true },
+        { text: "Database Integration", included: true },
+
       ],
     },
   ];
@@ -801,7 +788,7 @@ const PricingMain = () => {
             "bestRating": "5"
           },
           "datePublished": "2024-11-15",
-          "reviewBody": "We were quoted $5,000 by other web developers for our business site. With this service, we got a beautiful custom website for just $75/month with all the features we needed plus ongoing support. The value is incredible!"
+          "reviewBody": "We were quoted $5,000 by other web developers for our business site. With this service, we got a beautiful custom website for so much less with all the features we needed plus ongoing support from Michael. The value is incredible!"
         }
         `}
         </script>
@@ -1047,10 +1034,7 @@ const PricingMain = () => {
                     </div>
                   </div>
                   <p className="text-xl md:text-2xl font-medium text-gray-700 italic max-w-4xl mx-auto mb-8">
-                    "We were quoted $5,000 by other web developers for our
-                    business site. With this service, we got a beautiful custom
-                    website for just $75/month with all the features we needed
-                    plus ongoing support. The value is incredible!"
+                    "We were quoted $5,000 by other web developers for our business site. With this service, we got a beautiful custom website for so much less with all the features we needed plus ongoing support from Michael. The value is incredible!"
                   </p>
                   <div>
                     <h4 className="font-bold text-gray-800">Eddy Li</h4>
