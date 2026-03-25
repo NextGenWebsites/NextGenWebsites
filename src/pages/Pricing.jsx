@@ -153,6 +153,7 @@ const PriceBadge = ({ oldPrice, newPrice }) => {
 
 // Price Card Component
 const PriceCard = ({ plan, isPopular, index }) => {
+  const isCustomPlan = plan.name === "Custom Solutions";
   const bgClasses = isPopular
     ? "bg-gradient-to-br from-blue-600 to-blue-800 text-white border-blue-500"
     : "bg-white text-gray-800 border-gray-200 hover:border-blue-300";
@@ -188,15 +189,23 @@ const PriceCard = ({ plan, isPopular, index }) => {
           {/* Price comparison */}
           <PriceBadge newPrice={plan.price} />
 
-          <div className="flex items-center justify-center mb-6">
-            <span className="text-4xl font-bold">{plan.price}</span>
+          <div className="flex items-center justify-center mb-6 min-h-[56px]">
             <span
-              className={`ml-2 ${
-                isPopular ? "text-blue-100" : "text-gray-500"
+              className={`font-bold ${
+                isCustomPlan ? "text-2xl text-center leading-tight" : "text-4xl"
               }`}
             >
-              one-time
+              {plan.price}
             </span>
+            {!isCustomPlan && (
+              <span
+                className={`ml-2 ${
+                  isPopular ? "text-blue-100" : "text-gray-500"
+                }`}
+              >
+                one-time
+              </span>
+            )}
           </div>
           <a href="/contact">
             <motion.button
@@ -317,12 +326,10 @@ const CompetitorComparison = () => {
                   <td className="px-6 py-4 text-gray-800 font-medium">
                     E-commerce Website
                   </td>
-                  <td className="px-6 py-4 text-gray-800">
-                    $15,000 - $40,000 upfront
-                  </td>
-                  <td className="px-6 py-4 text-blue-600 font-bold">$2,890</td>
+                  <td className="px-6 py-4 text-gray-800">POA</td>
+                  <td className="px-6 py-4 text-blue-600 font-bold">POA</td>
                   <td className="px-6 py-4 text-green-600 font-bold">
-                    Up to 81% savings
+                    Custom quote
                   </td>
                 </tr>
               </tbody>
@@ -908,7 +915,9 @@ const PricingMain = () => {
                           >
                             <div className="font-bold text-xl">{plan.name}</div>
                             <div className="text-sm opacity-75">
-                              {plan.price} one-time
+                              {plan.name === "Custom Solutions"
+                                ? plan.price
+                                : `${plan.price} one-time`}
                             </div>
                           </th>
                         ))}
@@ -926,6 +935,7 @@ const PricingMain = () => {
                         "Image Gallery",
                         "Booking Integration",
                         "E-commerce Functionality",
+                        "Portal Login / User Database",
                       ].map((feature, i) => (
                         <tr
                           key={i}
@@ -955,7 +965,7 @@ const PricingMain = () => {
                                 <FaCheck className="text-green-500 mx-auto" />,
                               ],
                               "Contact Form": [
-                                <FaTimes className="text-gray-400 mx-auto" />,
+                                <FaCheck className="text-green-500 mx-auto" />,
                                 "Basic",
                                 "Advanced",
                                 "Advanced",
@@ -995,6 +1005,12 @@ const PricingMain = () => {
                                 <FaTimes className="text-gray-400 mx-auto" />,
                                 <FaTimes className="text-gray-400 mx-auto" />,
                                 "Full Store",
+                              ],
+                              "Portal Login / User Database": [
+                                <FaTimes className="text-gray-400 mx-auto" />,
+                                <FaTimes className="text-gray-400 mx-auto" />,
+                                <FaTimes className="text-gray-400 mx-auto" />,
+                                <FaCheck className="text-green-500 mx-auto" />,
                               ],
                             };
 
