@@ -561,7 +561,7 @@ const LandingPage = () => {
                   </span>
                 </div>
                 <p className="text-lg md:text-xl text-gray-600 mb-8">
-                  Websites are no longer complicated, overpriced and take forever. Welcome to the Next Generation of Websites. 
+                  Welcome to the Next Generation of Websites. Professional websites designed to elevate your business. Fast, reliable, and built for results.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 p-8 ">
                   <div>
